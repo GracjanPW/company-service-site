@@ -21,7 +21,7 @@ export const Header = () => {
     return (
         <header className="bg-gray-800 text-white p-4 flex justify-between absolute top-0 left-0 w-full transition-all duration-300">
             <div className="text-xl font-bold">
-                Our Company
+                FusionWorkss
             </div>
             <nav className="space-x-4">
                 <a href="/">Home</a>

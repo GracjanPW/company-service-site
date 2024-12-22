@@ -5,7 +5,7 @@ export const Hero = () => {
     <section className="hero-section h-screen w-full flex flex-col justify-center items-center text-center text-white">
       <div className="bg-black bg-opacity-50 h-full w-full flex flex-col justify-center items-center text-center text-white">
         <h1 className="text-6xl font-bold mb-4 fade-in">
-          Welcome to FusionWorks
+          Welcome to FusionWorkss
         </h1>
         <p className="text-2xl mb-8 fade-in">At FusionWorks we aim to provide the best services while giving the best customer service possible</p>
         <a
