@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <section className="h-screen w-full flex justify-center items-center bg-gray-100">
+    <section className="h-screen w-full flex justify-center items-center bg-gray-300">
       <div className="flex flex-col lg:flex-row justify-center items-center lg:items-stretch lg:space-x-12 max-w-screen-lg">
         <div className="aspect-square rounded-md overflow-hidden w-auto grow hidden lg:block fade-in">
             <img 

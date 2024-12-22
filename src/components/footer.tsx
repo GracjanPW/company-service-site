@@ -55,7 +55,6 @@ export const Footer = () => {
                     <h3 className="font-bold text-lg mb-2">Community & Blog</h3>
                     <ul className="space-y-1">
                         <li><a href="/community/events" className="hover:underline">Events</a></li>
-                        <li><a href="/community/forums" className="hover:underline">Forums</a></li>
                         <li><a href="/blog/latest" className="hover:underline">Latest Blog Posts</a></li>
                         <li><a href="/blog/news" className="hover:underline">Company News</a></li>
                     </ul>

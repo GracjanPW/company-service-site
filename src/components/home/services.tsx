@@ -57,7 +57,7 @@ export const Services = () => {
           }}
         >
           <div className="bg-black/70 p-4 rounded h-full">
-            <Link href="/consultancy-solutions" className="block">
+            <Link href="/contact" className="block">
               <button className="w-full bg-black-600 text-white p-1 pb-4 rounded text-xl font-bold hover:bg-white-700 transition">
                 Consultancy & Custom Solutions
               </button>
