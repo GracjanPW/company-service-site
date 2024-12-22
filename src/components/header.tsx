@@ -25,13 +25,14 @@ export const Header = () => {
             <div className="text-xl font-bold flex flex-row space-x-2">
                 <img src="/logo.png" alt="FusionWorks Logo" className="h-8 w-8 object-contain" />
                 <p>
-                FusionWorkss
+                FusionWorkz
                 </p>
             </div>
             <nav className="space-x-4">
                 <a href="/">Home</a>
                 <a href="/contact">Enquiries</a>
                 <a href="/about">About Us</a>
+                <a href="/blog">Blog</a>
             </nav>
         </header>
         

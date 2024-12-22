@@ -19,7 +19,7 @@ export const About = () => {
             <div className="m-2">
               <ul className="lg:list-disc space-y-4 text-md text-gray-500 font-semibold">
                 <li className="text-wrap fade-in">
-                  Welcome to our consultancy! Miguel, a mechanical engineer with a knack for product renders
+                  Welcome to FusionWorkz! Miguel, a mechanical engineer with a knack for product renders
                   and technical solutions, and Grace, a computer scientist passionate about websites and apps.
                 </li>
                 <li className="text-wrap fade-in">
