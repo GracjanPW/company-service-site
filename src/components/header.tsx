@@ -1,5 +1,7 @@
 "use client";
 import React, { useEffect } from 'react';
+import Logo from '@/assets/logo.png'; // Adjust the path based on your project structure
+
 
 export const Header = () => {
     useEffect(() => {
@@ -19,9 +21,12 @@ export const Header = () => {
     }, []);
 
     return (
-        <header className="bg-gray-800 text-white p-4 flex justify-between absolute top-0 left-0 w-full transition-all duration-300">
-            <div className="text-xl font-bold">
+        <header className="bg-gray-800 text-white p-4 flex justify-between items-center absolute top-0 left-0 w-full transition-all duration-300">
+            <div className="text-xl font-bold flex flex-row space-x-2">
+                <img src="/logo.png" alt="FusionWorks Logo" className="h-8 w-8 object-contain" />
+                <p>
                 FusionWorkss
+                </p>
             </div>
             <nav className="space-x-4">
                 <a href="/">Home</a>
@@ -29,5 +34,6 @@ export const Header = () => {
                 <a href="/about">About Us</a>
             </nav>
         </header>
+        
     );
 }

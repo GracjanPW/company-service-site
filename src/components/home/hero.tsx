@@ -2,8 +2,14 @@
 export const Hero = () => {
 
   return (
-    <section className="hero-section h-screen w-full flex flex-col justify-center items-center text-center text-white">
-      <div className="bg-black bg-opacity-50 h-full w-full flex flex-col justify-center items-center text-center text-white">
+    <section className="hero-section h-screen w-full flex flex-col justify-center items-center text-center text-white"
+      style={{
+        backgroundImage: "url('/back.webp')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <div className="bg-black/70 h-full w-full flex flex-col justify-center items-center text-center text-white">
         <h1 className="text-6xl font-bold mb-4 fade-in">
           Welcome to FusionWorkss
         </h1>

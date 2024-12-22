@@ -7,20 +7,26 @@ export default function ContactPage() {
       <p className="text-lg">Get in touch with us</p>
       <form className="space-y-4" action={sendEmail}>
         <input
+          name="name"
           type="text"
           placeholder="Name"
-          className="w-full p-2 border border-gray-300"
+          className="w-full p-2 border rounded-md border-gray-300"
+          required
         />
         <input
+          name="email"
           type="email"
           placeholder="Email"
-          className="w-full p-2 border border-gray-300"
+          className="w-full p-2 border rounded-md border-gray-300"
+          required
         />
         <textarea
+          name="message"
           placeholder="Message"
-          className="w-full p-2 border border-gray-300"
+          className="w-full p-2 border rounded-md border-gray-300 min-h-10 max-h-40 h-min"
+          required
         ></textarea>
-        <button type="submit" className="bg-blue-500 text-white p-2 rounded">
+        <button type="submit" className="bg-gray-700 font-bold px-4 text-white p-2 rounded">
           Submit
         </button>
       </form>

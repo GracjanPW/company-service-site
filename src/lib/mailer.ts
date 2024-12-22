@@ -2,17 +2,17 @@ import nodemailer from "nodemailer";
 
 export const sendMail = async (to: string, subject: string, text: string) => {
   const transporter = nodemailer.createTransport({
-    host: "smtp.ethereal.email",
-    port: 587,
+    service: "gmail",
     auth: {
-      user: "username",
-      pass: "password",
+      user: process.env.GMAIL_ADDRESS,
+      pass: process.env.GMAIL_PASSWORD,
     },
   });
 
   const info = await transporter.sendMail({
     from: "FusionWorks <    >",
-    to,
+    to: process.env.GMAIL_ADDRESS,
+    cc: to,
     subject,
     text,
   });
